@@ -1,25 +1,25 @@
 #!/usr/bin/python3
 from models.base_model import BaseModel
 
-my_model = BaseModel()
-my_model.name = "Holberton"
-my_model.my_number = 89
-print(my_model.id)
-print(my_model)
-print(type(my_model.created_at))
+my_ prototype = BaseModel()
+my_ prototype.name = "Holberton"
+my_ prototype.my_number = 89
+print(my_ prototype.id)
+print(my_ prototype)
+print(type(my_ prototype.created_at))
 print("--")
-my_model_json = my_model.to_dict()
-print(my_model_json)
-print("JSON of my_model:")
-for key in my_model_json.keys():
-        print("\t{}: ({}) - {}".format(key, type(my_model_json[key]),
-                                       my_model_json[key]))
+my_ prototype_json = my_ prototype.to_dict()
+print(my_ prototype_json)
+print("JSON of my_ prototype:")
+for key in my_ prototype_json.keys():
+        print("\t{}: ({}) - {}".format(key, type(my_ prototype_json[key]),
+                                       my_ prototype_json[key]))
 
         print("--")
-        my_new_model = BaseModel(**my_model_json)
+        my_new_model = BaseModel(**my_ prototype_json)
         print(my_new_model.id)
         print(my_new_model)
         print(type(my_new_model.created_at))
 
         print("--")
-        print(my_model is my_new_model)
+        print(my_ prototype is my_new_model)

@@ -38,12 +38,12 @@ class TestBaseModel(unittest.TestCase):
 
     def test_first_task(self):
         """Test creation of class and to_dict"""
-        my_model = BaseModel()
-        self.assertIs(type(my_model), BaseModel)
-        my_model.name = "Holberton"
-        my_model.my_number = 89
-        self.assertEqual(my_model.name, "Holberton")
-        self.assertEqual(my_model.my_number, 89)
+        my_ prototype = BaseModel()
+        self.assertIs(type(my_ prototype), BaseModel)
+        my_ prototype.name = "Holberton"
+        my_ prototype.my_number = 89
+        self.assertEqual(my_ prototype.name, "Holberton")
+        self.assertEqual(my_ prototype.my_number, 89)
         model_types_json = {
             "my_number": int,
             "name": str,
@@ -52,11 +52,11 @@ class TestBaseModel(unittest.TestCase):
             "id": str,
             "created_at": str
         }
-        my_model_json = my_model.to_dict()
+        my_ prototype_json = my_ prototype.to_dict()
         for key, value in model_types_json.items():
             with self.subTest(key=key, value=value):
-                self.assertIn(key, my_model_json)
-                self.assertIs(type(my_model_json[key]), value)
+                self.assertIn(key, my_ prototype_json)
+                self.assertIs(type(my_ prototype_json[key]), value)
 
     def test_base_types(self):
         """Testing dict model"""
@@ -93,14 +93,14 @@ class TestBaseModel(unittest.TestCase):
 
     def test_string_representation(self):
         """Test the magic method str"""
-        my_model = BaseModel()
-        my_model.name = "Holberton"
-        my_model.my_number = 89
-        id_model = my_model.id
+        my_ prototype = BaseModel()
+        my_ prototype.name = "Holberton"
+        my_ prototype.my_number = 89
+        id_model = my_ prototype.id
 
         expected = '[BaseModel] ({}) {}'\
-                   .format(id_model, my_model.__dict__)
-        self.assertEqual(str(my_model), expected)
+                   .format(id_model, my_ prototype.__dict__)
+        self.assertEqual(str(my_ prototype), expected)
 
     def test_constructor_kwargs(self):
         """Test constructor that has kwargs as attributes values"""
