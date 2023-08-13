@@ -9,8 +9,8 @@ for obj_id in all_objs.keys():
     print(obj)
 
 print("-- Create a new object --")
-my_ prototype = BaseModel()
-my_ prototype.name = "Holberton"
-my_ prototype.my_number = 89
-my_ prototype.save()
-print(my_ prototype)
+my_model = BaseModel()
+my_model.name = "Holberton"
+my_model.my_number = 89
+my_model.save()
+print(my_model)

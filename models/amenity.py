@@ -3,11 +3,11 @@
 from models.base_model import BaseModel
 
 
-class resource(BaseModel):
+class Amenity(BaseModel):
     '''class amenity'''
 
     name = ""
 
     def __init__(self, *args, **kwargs):
-        """initializing Amenity"""
+        """initializes Amenity"""
         super().__init__(*args, **kwargs)
