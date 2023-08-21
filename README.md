@@ -35,7 +35,7 @@ A command interpreter to manage our Airbnb clone objects:
  </p>
 
 ## Installation :floppy_disk:
- - Clone this repository: `git clone "https://github.com/robpalacios1/AirBnB_clone.git"`
+ - Clone this repository: `git clone "https://github.com/mphojames9/AirBnB_clone.git"`
  - Access AirBnb directory: `cd AirBnB_clone`
  - Run hbnb(interactively): `./console` and enter command
  - Run hbnb(non-interactively): `echo "<command>" | ./console.py`
