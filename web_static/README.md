@@ -1,8 +1,5 @@
 # :gear: 0x01. AirBnB clone - Web static :gear:
  
-
-## Background Context
-
 ### Web static, what?
 
 Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
@@ -61,6 +58,3 @@ Before starting, please fork or clone the repository AirBnB_clone from your part
 - Current screenshots have been done on Chrome 56 or more.
 - No cross browsers
 - You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots
-
-## Author :book:
-Roberto Palacios [Twitter](https://twitter.com/robpalacios11) | [GitHub](https://github.com/robpalacios1)
