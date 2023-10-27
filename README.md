@@ -22,7 +22,7 @@ The console is the first segment of the `AirBnB project` at `Holberton School` t
 
 This isfirst step towards building our first full web application: the AirBnB clone.
 
-A coand interpreter to manage our Airbnb clone objects:
+and interpreter to manage our Airbnb clone objects:
 
 - Create a new object (ex: a new User or a new Place)
 - Retrieve an object from a file, a database etc…
