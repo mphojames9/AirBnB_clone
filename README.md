@@ -1,7 +1,6 @@
 
 <p align="center"><img src= "https://media.itsnicethat.com/original_images/563b97a87fa44cff9d001760.gif" width="600" height="400"/></p>
 
-
 # AirBnB clone - The console :ab::rocket:
 The AirBnB clone project starts now until… the end of the first year. The goal of the project is to deploy on your server a simple copy of the AirBnB website 
 
