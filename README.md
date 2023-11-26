@@ -17,13 +17,6 @@ The AirBnB clone project starts now until… the end of the first year. The goal
 <p align="center">
 <img src = "https://i.imgur.com/ROvfVRP.png"/>
  </p>
-
-## Installation :floppy_disk:
- - Clone this repository: `git clone "https://github.com/mphojames9/AirBnB_clone.git"`
- - Access AirBnb directory: `cd AirBnB_clone`
- - Run hbnb(interactively): `./console` and enter command
- - Run hbnb(non-interactively): `echo "<command>" | ./console.py`
- 
 ## File description :file_folder: 
 
 ```
